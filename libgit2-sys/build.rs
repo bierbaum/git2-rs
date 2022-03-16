@@ -48,6 +48,7 @@ fn main() {
 
     // Include all cross-platform C files
     add_c_files(&mut cfg, "libgit2/src/libgit2");
+    add_c_files(&mut cfg, "libgit2/src/util");
     add_c_files(&mut cfg, "libgit2/src/libgit2/xdiff");
 
     // These are activated by features, but they're all unconditionally always
